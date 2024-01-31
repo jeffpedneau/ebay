@@ -1,0 +1,12 @@
+/* They aren't really issue numbers. */
+.rowIssue::before { content: ''; } 
+
+/* Stats column is much wider here. */
+.colStats { width: 20rem; }
+
+/* 
+.comingSoon { display: flex; background-color: yellow; }
+.comingSoon .rowGrade::before { content: 'COMING SOON'; }
+.comingSoon .colDetail::before { display: block; content: 'More issues coming your way soon -- check back often!'; }
+.comingSoon .colDetail::after  { display: block; content: ' 103, 150, 151, 230, 231, 232, 233 ...'; }
+ */

@@ -1,0 +1,22 @@
+/* #labelAmethyst, */
+#noCommaLine { display: none; }
+
+#labelASM_334_339,
+#labelASM_351_358,
+#labelIronMan_227_235,
+
+#labelBraveAndBold_Hawkman,
+#labelLegendsSet,
+#labelLegionOfSuperHeroes1,
+#labelOutsidersLotOf23,
+#labelSuperboy_Legion_LotOf_136 {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.lotnameConsecutive::after,
+.lotnameDC::after { 
+    white-space: pre;
+    content: '\a \a Some of the lots shown here or in the Lot ID dropdown above have been temporarily \a posted as individual listings and so have been hidden or disabled. \a  ';
+    color: blue;
+}

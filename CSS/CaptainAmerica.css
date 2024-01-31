@@ -1,0 +1,17 @@
+.crossad_missing::before { content: 'Missing some other issues of Captain America'; }
+.seelinktitle::before { content: 'Captain America'; }
+
+
+/* Out of Stock (no longer display) */
+/* #cap162 { display: none; } */
+ 
+/*  
+.comingSoon { display: flex; background-color: yellow; }
+.comingSoon .rowGrade::before { content: 'COMING SOON' }
+.comingSoon .colDetail::before { display: block; content: 'Slowly filling in the gap after issue 133,'}
+.comingSoon .colDetail::after  { display: block; content: 'so check back periodically!'}
+ */
+
+/* LINK DATA */
+#cap334pressedLink .colStats .rowPrice::before { content: '6.25'; color: red; } #cap334pressedLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#cap337pressedLink .colStats .rowPrice::before { content: '19.00'; color: red; } #cap337pressedLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }

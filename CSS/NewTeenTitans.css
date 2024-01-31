@@ -1,0 +1,16 @@
+.crossad_missing::before { content: 'Missing some other issues of New Teen Titans'; }
+
+/* .seelink { display: none; } */
+.seelinktitle::before { content: 'New Teen Titans'; }
+
+/* Out of Stock (no longer display) */
+/* #ntt62 { display: none; } */
+
+
+/* .comingSoon { display: flex; background-color: yellow; } */
+/* .comingSoon .rowGrade::before { content: 'COMING SOON' } */
+/* .comingSoon .colDetail::before { display: block; content: 'Many more issues coming -- check back periodically!'} */
+/* .comingSoon .colDetail::after  { display: block; content: ' Just finished Volume 1 -- Begun filling in Volume 2 (scroll down...)'} */
+
+/* LINK DATA */
+#nightcrawlerSet1234Link .colStats .rowPrice::after { content: '24.95'; } #nightcrawlerSet1234Link { display: none }

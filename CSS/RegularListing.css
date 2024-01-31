@@ -1,0 +1,33 @@
+.col1wide { width: 25%; }
+
+.lotid { color: blue; }
+.lotid_hint::after { color: blue; content: ' (in blue text)'; }
+
+.price  { color: #006521; }
+.total::before { content: '$'; }
+.total { 
+    font-weight: bold; 
+    background-color: rgba(255, 255, 0, 0.5);
+    padding: 4px; 
+    border-radius: 10px;
+}
+
+.tabsinstruct { padding: 0 0 4px 0; margin: 8px 8px; }
+.labelInstruct { color: green; }
+
+.totalShipping::before { content: ' NO ADDITIONAL SHIPPING '; }
+
+#tabInstructions div { margin-bottom: 1rem; }
+#tabInstructions #instructHeader { font-size: 1.5rem; font-weight: bold; }
+#tabInstructions .onecent { font-weight: bold; margin-bottom: .5rem; }
+#tabInstructions #instructP3, #tabInstructions #instructP4 { display: none; }
+
+@media (max-width: 45em) {
+    .tabsinstruct::after {
+        display: block;
+        margin-top: 5px;
+        font-style: italic;
+        content: '(On your smaller viewscreen, the tabs will appear stacked on top of each other.)';
+    }
+}
+  

@@ -1,0 +1,20 @@
+.crossad_missing::before { content: 'Missing some other issues of Avengers'; }
+.seelinktitle::before { content: 'Avengers'; }
+
+/* #aven227 .colDetail { background-color: yellow; } */
+/* #aven227 .colDetail::before { color: red; content: '*** HOT *** '; } */
+
+/*
+.comingSoon { display: flex; background-color: yellow; }
+.comingSoon .rowGrade::before { content: 'COMING SOON' }
+.comingSoon .colDetail::before { display: block; content: 'More issues coming your way soon -- check back often!'}
+.comingSoon .colDetail::after  { display: block; content: 'Will be filling in gaps between 56 and 150 primarily ...'}
+ */
+
+/* LINK DATA */
+#avengers10pressedBLink .colStats .rowPrice::before { content: '310.00'; color: red; } #avengers10pressedBLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#avengers48pressedLink  .colStats .rowPrice::after { content: '175.00'; }
+#aven195pressedBLink    .colStats .rowPrice::before { content: '12.65'; color: red; } #aven195pressedBLink    .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#aven227pressedBLink    .colStats .rowPrice::before { content: '28.50'; color: red; } #aven227pressedBLink    .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#Avengers332to343Link   .colStats .rowPrice::after { content: '23.95'; }
+#avengers8cgc50Link     .colStats .rowPrice::after { content: '850.00'; }

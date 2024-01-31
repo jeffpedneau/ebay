@@ -1,0 +1,17 @@
+/* ACTIVATE THIS LINE WHEN FINALLY SHOWING THIS TITLE */
+.crossad_missing::before { content: 'Missing some other issues of Tales to Astonish'; }
+
+/* REMOVE THIS LINE WHEN FINALLY SHOWING THIS TITLE */
+/* .seelink { display: none; } */
+
+.seelinktitle::before { content: 'Tales to Astonish'; }
+
+
+/* .comingSoon { display: flex; background-color: yellow; } */
+/* .comingSoon .rowGrade::before { content: 'COMING SOON' } */
+/* .comingSoon .colDetail::before { display: block; content: 'Many more issues coming -- check back periodically!'} */
+/* .comingSoon .colDetail::after  { display: block; content: ' Working to fill in the gap after issue 56, so please be patient... '} */
+
+/* LINK DATA */
+#tta68pressedLink .colStats .rowPrice::after { content: '29.95'; }
+#tta90pressedLink .colStats .rowPrice::after { content: '69.00'; }

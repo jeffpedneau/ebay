@@ -1,0 +1,17 @@
+.crossad_missing::before { content: 'Missing some other issues of Fantastic Four'; }
+.seelinktitle::before { content: 'Fantastic Four'; }
+
+/* Out of Stock (no longer display) */
+/* #ff211 { display: none; } */
+
+/* .comingSoon { display: flex; background-color: yellow; } */
+/* .comingSoon .rowGrade::before { content: 'COMING SOON'; } */
+/* .comingSoon .colDetail::before { display: block; content: 'More issues coming your way soon -- check back often!'; } */
+/* .comingSoon .colDetail::after  { display: block; content: 'I will be filling in the gap between issues 77 and 103 over the next few weeks, and I have plenty, so check back often, and if you are looking for a specific issue, please send me a message.  I might have it and could list it for you.'; } */
+
+/* LINK DATA */
+#ff67pressedLink       .colStats .rowPrice::after { content: '125.00'; }
+#ff127pressedDLink     .colStats .rowPrice::before { content: '8.50'; color: red; } #ff127pressedDLink     .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#ff347to349firstLink   .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink   { display: none }
+#ff347to349firstLink   .colStats .rowPrice::after { content: ''; }
+#ff347to349secondALink .colStats .rowPrice::before { content: '27.95'; color: red; } #ff347to349secondALink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }

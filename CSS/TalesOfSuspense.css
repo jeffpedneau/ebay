@@ -1,0 +1,18 @@
+/* THIS REMOVED AND HIDDEN NOW THAT THE ENTRY HAS AGED OUT (10/24/2022) */
+/* .crossad_missing::before { content: 'Missing some other issues of Tales of Suspense'; } */
+.seelinktitle::before { content: 'Tales of Suspense'; }
+
+/* HIDDEN NOW -- we're done */
+.seelink { display: none; }
+
+/* Out of Stock (no longer display) */
+#tos77 { display: none; }
+
+/* LINK DATA */
+#tos74pressedLink       .colStats .rowPrice::before { content: '29.50'; color: red; } #tos74pressedLink       .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#tos81tapeLink          .colStats .rowPrice::before { content: '25.00'; color: red; } #tos81tapeLink          .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#tos83pressedNelsonLink .colStats .rowPrice::after { content: '31.00'; }
+#tos85pressedLink       .colStats .rowPrice::after { content: '34.00'; }
+#tos94pressedLink       .colStats .rowPrice::before { content: '185.00'; color: red; } #tos94pressedLink       .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#tos96pressedLink       .colStats .rowPrice::after { content: '24.00'; }
+#tos94cgc92Link         .colStats .rowPrice::before { content: '1,395.00'; color: red; } #tos94cgc92Link         .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }

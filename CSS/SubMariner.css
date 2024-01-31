@@ -1,0 +1,30 @@
+/* ACTIVATE THIS LINE WHEN FINALLY SHOWING THIS TITLE */
+.crossad_missing::before { content: 'Missing some other issues of Sub-Mariner'; }
+
+/* .seelink { display: none; } */
+.seelinktitle::before { content: 'Sub-Mariner'; }
+
+
+/* Out of Stock (no longer display) */
+/* #sub72 { display: none; } */
+
+
+/* .comingSoon { display: flex; background-color: yellow; } */
+/* .comingSoon .rowGrade::before { content: 'COMING SOON' } */
+/* .comingSoon .colDetail::before { display: block; content: 'Many more issues coming -- check back periodically!'} */
+/* .comingSoon .colDetail::after  { display: block; content: ' Working to fill in the gap after issue 56, so please be patient... '} */
+
+/* LINK DATA */
+#sub1pressedLink   .colStats .rowPrice::after { content: '265.00'; }
+#sub2pressedALink  .colStats .rowPrice::after { content: '32.00'; }
+#sub2pressedBLink  .colStats .rowPrice::after { content: '45.00'; }
+#sub3pressedCLink  .colStats .rowPrice::after { content: '34.50'; }
+#sub3pressedDLink  .colStats .rowPrice::after { content: '36.50'; }
+#sub5pressedBLink  .colStats .rowPrice::after { content: '62.00'; }
+#sub7pressedALink  .colStats .rowPrice::after { content: '114.00'; }
+#sub14pressedLink  .colStats .rowPrice::after { content: '42.00'; }
+#sub19pressedCLink .colStats .rowPrice::before { content: '58.00'; color: red; } #sub19pressedCLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#sub23pressedALink .colStats .rowPrice::after { content: '51.00'; }
+#sub23pressedBLink .colStats .rowPrice::after { content: '29.00'; }
+#sub34pressedLink  .colStats .rowPrice::after { content: '92.00'; }
+#sub35pressedALink .colStats .rowPrice::before { content: '49.95'; color: red; } #sub35pressedALink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }

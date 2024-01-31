@@ -1,0 +1,24 @@
+.crossad_missing::before { content: 'Missing some other issues of Thor'; }
+.seelinktitle::before { content: 'Thor'; }
+
+/* Out of Stock (no longer display) */
+#thor162c { display: none; }
+
+/* 
+#thor130 .colDetail { background-color: lightgray; color: transparent; }
+#thor130 .rowPrice { display: none; }
+#thor130 .colDetail::before { 
+    white-space: pre;
+    color: blue; content: '*** Currently On-Sale in a Separate Listing *** \a'; 
+}
+ */
+ 
+/*  
+.comingSoon { display: flex; background-color: yellow; }
+.comingSoon .rowGrade::before { content: 'COMING SOON' }
+.comingSoon .colDetail::before { display: block; content: 'Many more issues coming -- check back periodically!'}
+.comingSoon .colDetail::after  { display: block; content: ' This listing just getting underway, so please be patient... '}
+ */
+
+/* LINK DATA */
+#thor209pressedLink .colStats .rowPrice::after { content: '6.75'; }

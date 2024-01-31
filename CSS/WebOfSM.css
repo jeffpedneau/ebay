@@ -1,0 +1,9 @@
+.crossad_missing::before { content: 'Missing some other issues of Web of Spider-Man'; }
+.seelinktitle::before { content: 'Web of Spider-Man'; }
+
+/* Out of Stock (no longer display) */
+/* #web12, #web13 { display: none; } */
+
+
+/* LINK DATA */
+#web117Link .colStats .rowPrice::before { content: '6.25'; color: red; } #web117Link .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }

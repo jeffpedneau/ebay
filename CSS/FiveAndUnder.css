@@ -1,0 +1,87 @@
+/* .crossad_missing::before { content: 'Looking for more deals'; } */
+/* .seelink { display: none; } */
+/* .seelinktitle::before { content: 'Low-Price Deals'; } */
+
+#LATEST-ENTRIES .rowIssue {
+    font-weight: bold;
+}
+
+#LATEST-ENTRIES .rowGrade,
+#LATEST-ENTRIES .rowPrice {
+    display: none;
+}
+
+#LATEST-ENTRIES .colDetail {
+    background-color: aqua;
+}
+
+#LATEST-ENTRIES .colDetail::before {
+    white-space: pre;
+    font-weight: bold;
+    content: 'Check out these recently-added entries below! \a \a';
+}
+
+/* They aren't really issue numbers. */
+.rowIssue::before { content: ''; }
+
+/* Stats column is much wider here. */
+.colStats { width: 21rem; }
+
+.issueHeader .rowIssue::before { content: 'Title and '; }
+
+/* This is the simpler display for five */
+.dc, .marvel {
+    border: 1px solid grey;
+    color: white;
+    display: inline-block;
+    margin: 0px 2px;
+    padding: 1px 3px;
+}
+.dc { background-color: rgb(0, 169, 217); }
+.marvel { background-color: red; text-transform: uppercase; }
+
+/* The more complicated image display for ten */
+.pubimage {
+    float: left;
+    height: 3.5rem;
+    width:  3.5rem;
+    padding-right: 0.5rem;
+}
+
+/* That first column is too wide on mobile devices */
+@media (max-width: 45em) {
+    .colStats { width: 7rem; }
+}
+
+
+.comingSoon { display: flex; background-color: yellow; }
+
+/* .comingSoon .rowGrade::before { content: 'COMING SOON' } */
+.comingSoon .rowGrade::before {
+    display: block;
+    white-space: pre;
+    font-weight: bold;
+    color: blue;
+    content: '\a \a NOTICE'
+}
+
+/* .comingSoon .colDetail::before { display: block; content: 'Many more bargains coming -- I am only allowed 250 entries at a time,'} */
+/* .comingSoon .colDetail::after  { display: block; content: 'so I am constantly shuffling in new ones as these sell.  Check regularly!'} */
+
+.comingSoon .colDetail::before {
+    display: block;
+    white-space: pre;
+    font-weight: bold;
+    color: blue;
+    content: '\a Make sure to check both my "Five and Under" \a and "Nothing Over 10 Bucks" listings!';
+}
+
+.comingSoon .colDetail::after  {
+    display: block;
+    white-space: pre;
+
+    /* color: blue; */
+    content: '\a If you have any questions about these or what might be coming, \a please feel free to contact me at:  JPedneau@gmail.com \a \a';
+}
+
+/* LINK DATA */

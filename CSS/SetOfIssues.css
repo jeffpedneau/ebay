@@ -1,0 +1,144 @@
+/* The !important overrides the later override from specific issue CSS. */
+.crossad_missing::before { content: 'Missing some issues of other titles' !important; }
+.crossad_missingAF::before {
+    content: 'New issues are posted regularly, so check back often.';
+}
+
+#xxx, .maintable, .eligible,
+.shiprate-detail .shiprate, .shiprate-detail .snugup
+{ display: none; }
+
+.shiprate { display: block; text-align: center; }
+/* .otheritems { display: block; text-align: center; } */
+.shiprate-set, .notSeeIt { display: block; }
+
+.description { padding: 0px 5px; color: blue; }
+
+.issuesinstruct {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.issuesinstruct::before {
+    /* content: 'Once you have chosen the issues you want from the list below, return to the top of this listing and select the first one from the "Issue" dropdown above and click Add to Cart. Then continue shopping and keep selecting the issues you want. When you\'re done, Proceed to Checkout, but use the option to request the total from the seller (this may not be possible from the ebay mobile app - it is recommended that you use a desktop computer to do this).  I will look over the order and apply the discount. This is particularly important if you\'re combining issues from this listing with those of one of my other listings.  If you do not follow this process, ebay may try to charge you the shipping fee for every single issue you select, and while I am willing to reimburse you, I will have to deduct 13% from the overage since there is no way to get back what ebay charged me from that amount.'; */
+    content: 'Once you have chosen the issues you want from the list below, return to the top of this listing and select the first one from the "Issue" dropdown above and click Add to Cart. Then continue shopping and keep selecting the issues you want. When you\'re done, Proceed to Checkout.';
+}
+
+.issuesdiv {
+    padding: 0px;
+    margin: 8px 8px;
+    display: block !important;
+}
+
+/* .issueContainer { display: flex; flex-flow: column nowrap; } */
+
+.issueRow {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: stretch;
+    padding: 0;
+}
+
+.issueHeader {
+    font-weight: bold;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.colStats, .colDetail { border: 1px solid gray; }
+.issueHeader .colDetail { align-self: center; border: none; }
+
+.colStats {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 7rem;
+}
+
+.colDetail {
+    flex-grow: 1;
+    padding: 5px 8px;
+}
+
+/* Hide all not-yet-active rows. */
+.issueRow.inactive {
+    background-color: khaki;
+    display: none;
+}
+
+/* This is only used to view locally before being made available. */
+.issueContainer.showInactive .issueRow.inactive {
+    display: flex;
+}
+
+/* These next two are for tables inside of the detail column (issuesTemplate) */
+.issueRow .colDetail table {
+    width: 99% !important;
+}
+
+.issueRow .colDetail table tr td:nth-of-type(1) {
+    background-color: lightgray;
+    font-style: italic;
+    width: 140px;
+}
+
+.rowIssue, .rowGrade, .rowPrice {
+    padding: 0 8px;
+    line-height: 1.5;
+}
+
+.rowIssue {
+    background-color: rgba(144, 238, 144, 0.70);
+}
+
+.rowIssue.reprint { background-color: lightpink; }
+.rowIssue.reprint::after {
+    content: 'reprint';
+    font-size: 0.7rem;
+}
+
+
+.rowSetName { color: blue; }
+
+.rowIssue::before { content: '#'; }
+.rowGrade::before { content: '\00a0\00a0\00a0'; }
+.rowPrice::before { content: '$ '; }
+.issueHeader .rowIssue::before, .issueHeader .rowGrade::before, .issueHeader .rowPrice::before { content: ''; }
+
+.comingSoon { display: none; text-align: center; }
+
+.lotlink, .rowSetName { font-weight: bold; }
+.lotlink::before { content: ' Available in my other listing: '; }
+
+.lotlink, .issueset { background-color: rgba(255, 255, 0, .6); }
+.reprint { background-color:rgba(255, 255, 0, .3); }
+
+/* --- listsepRow stuff MUST be AFTER .reprint setting --- */
+.listsepRow .rowIssue  { background-color: rgba(175, 238, 238, 1); }
+.listsepRow.issueRow .colDetail { background-color: rgba(175, 238, 238, 0.4); }
+.listsepRow.issueRow .colDetail .listsepDetail::before { content: 'Listed separately here';  font-weight: bold; }
+.listsepRow.issueRow .colDetail .listsepDetail::after  { content: '(click to open in new window):'; }
+
+#lblHideReprints, #lblHideListSep {
+    font-size: 2em;
+    color: blue;
+    top: 0;
+    display: inline-block;
+}
+
+#ckHideReprints, #ckListSep {
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    margin-right: 20px;
+}
+
+@supports (position: sticky) {
+    #lblHideReprints, #ckHideReprints, #lblHideListSep, #ckListSep {
+        position: sticky;
+        background-color: white;
+    }
+}
+
+#ckHideReprints:not(:checked) ~ .reprintRow { display: none; }
+     #ckListSep:not(:checked) ~ .listsepRow { display: none; }

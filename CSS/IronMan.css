@@ -1,0 +1,16 @@
+.crossad_missing::before { content: 'Missing some other issues of Iron Man'; }
+.seelinktitle::before { content: 'Iron Man'; }
+
+/* Out of Stock (no longer display) */
+/* #ironman162 { display: none; } */
+ 
+/*  
+.comingSoon { display: flex; background-color: yellow; }
+.comingSoon .rowGrade::before { content: 'COMING SOON' }
+.comingSoon .colDetail::before { display: block; content: 'Slowly filling in the gap after issue 12,'}
+.comingSoon .colDetail::after  { display: block; content: 'so check back periodically!'}
+ */
+
+/* LINK DATA */
+#ironman34pressedCLink       .colStats .rowPrice::before { content: '11.75'; color: red; } #ironman34pressedCLink       .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#ironmanSubmarinerLotOf4Link .colStats .rowPrice::after { content: '110.00'; }

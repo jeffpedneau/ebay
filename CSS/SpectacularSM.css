@@ -1,0 +1,15 @@
+.crossad_missing::before { content: 'Missing some other issues of Spectacular Spider-Man'; }
+.seelinktitle::before { content: 'Spectacular Spider-Man'; }
+
+/* Out of Stock (no longer display) */
+/* #spec63, #spec65, #spec79 { display: none; } */
+
+
+/* .comingSoon { display: flex; background-color: yellow; } */
+/* .comingSoon .rowGrade::before { content: 'COMING SOON' } */
+/* .comingSoon .colDetail::before { display: block; content: 'Many more issues coming -- check back periodically!'} */
+/* .comingSoon .colDetail::after  { display: block; content: ' Working to fill in the gaps below issue 13, so please be patient... '} */
+
+
+/* LINK DATA */
+#spec9pressedBLink .colStats .rowPrice::after { content: '24.50'; }

@@ -1,0 +1,55 @@
+/* Commented out on March 26, 2023, as this is being retired... */
+/* .crossad_missing::before { content: 'Missing some other issues of Strange Tales'; } */
+/* .seelinktitle::before { content: 'Strange Tales'; } */
+
+/* SOLD */
+/* #stal136  .colDetail,
+#stal136b .colDetail,
+#stal137  .colDetail,
+#stal137b .colDetail,
+#stal138  .colDetail,
+#stal143  .colDetail,
+#stal146  .colDetail,
+#stal159  .colDetail,
+#stal160  .colDetail,
+#stal161b .colDetail,
+#stal162  .colDetail,
+#stal164  .colDetail,
+#stal167  .colDetail
+{ color: lightgray; }
+
+#stal136  .colDetail::before,
+#stal136b .colDetail::before,
+#stal137  .colDetail::before,
+#stal137b .colDetail::before,
+#stal138  .colDetail::before,
+#stal143  .colDetail::before,
+#stal146  .colDetail::before,
+#stal159  .colDetail::before,
+#stal160  .colDetail::before,
+#stal161b .colDetail::before,
+#stal162  .colDetail::before,
+#stal164  .colDetail::before,
+#stal167  .colDetail::before
+{ color: red;  content: 'SOLD ';  font-weight: 700; } */
+
+
+/* .comingSoon { display: flex; background-color: yellow; } */
+/* .comingSoon .rowGrade::before { content: 'COMING SOON' } */
+/* .comingSoon .colDetail::before { display: block; content: 'Many more issues coming -- check back periodically!'} */
+/* .comingSoon .colDetail::after  { display: block; content: ' Working to fill in the gap after issue 56, so please be patient... '} */
+
+/* LINK DATA */
+#strange107reprintLink  .colStats .rowPrice::after { content: '3.95'; }
+#strange138pressedALink .colStats .rowPrice::after { content: '47.00'; }
+#strange138pressedBLink .colStats .rowPrice::after { content: '65.00'; } #strange138pressedBLink { display: none }
+#strange148pressedALink .colStats .rowPrice::after { content: '47.50'; }
+#strange149pressedALink .colStats .rowPrice::after { content: '16.50'; }
+#strange149pressedCLink .colStats .rowPrice::after { content: '22.95'; }
+#strange152Link         .colStats .rowPrice::after { content: '8.50'; }
+#strange156pressedBLink .colStats .rowPrice::before { content: '18.95'; color: red; } #strange156pressedBLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#strange157pressedLink  .colStats .rowPrice::after { content: '94.00'; }
+#strange161pressedALink .colStats .rowPrice::after { content: '35.00'; }
+#strange162pressedALink .colStats .rowPrice::before { content: '12.95'; color: red; } #strange162pressedALink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#strange165pressedBLink .colStats .rowPrice::after { content: '23.95'; }
+#strange166pressedLink  .colStats .rowPrice::after { content: '24.95'; }
