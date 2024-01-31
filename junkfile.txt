@@ -1,4 +1,0 @@
-This is the contents of my junk file.
-
-What happens when I update it locally and push?
-And again?
