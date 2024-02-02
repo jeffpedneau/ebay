@@ -23,8 +23,7 @@
 #sub5pressedBLink  .colStats .rowPrice::after { content: '62.00'; }
 #sub7pressedALink  .colStats .rowPrice::after { content: '114.00'; }
 #sub14pressedLink  .colStats .rowPrice::after { content: '42.00'; }
-#sub19pressedCLink .colStats .rowPrice::before { content: '58.00'; color: red; } #sub19pressedCLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#sub19pressedBLink .colStats .rowPrice::after { content: '54.00'; }
 #sub23pressedALink .colStats .rowPrice::after { content: '51.00'; }
 #sub23pressedBLink .colStats .rowPrice::after { content: '29.00'; }
 #sub34pressedLink  .colStats .rowPrice::after { content: '92.00'; }
-#sub35pressedALink .colStats .rowPrice::before { content: '49.95'; color: red; } #sub35pressedALink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }

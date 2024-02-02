@@ -12,5 +12,4 @@
  */
 
 /* LINK DATA */
-#ironman34pressedCLink       .colStats .rowPrice::before { content: '11.75'; color: red; } #ironman34pressedCLink       .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ironmanSubmarinerLotOf4Link .colStats .rowPrice::after { content: '110.00'; }

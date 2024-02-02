@@ -12,9 +12,6 @@
  */
 
 /* LINK DATA */
-#avengers10pressedBLink .colStats .rowPrice::before { content: '310.00'; color: red; } #avengers10pressedBLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
-#avengers48pressedLink  .colStats .rowPrice::after { content: '175.00'; }
-#aven195pressedBLink    .colStats .rowPrice::before { content: '12.65'; color: red; } #aven195pressedBLink    .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
-#aven227pressedBLink    .colStats .rowPrice::before { content: '28.50'; color: red; } #aven227pressedBLink    .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
-#Avengers332to343Link   .colStats .rowPrice::after { content: '23.95'; }
-#avengers8cgc50Link     .colStats .rowPrice::after { content: '850.00'; }
+#avengers48pressedLink .colStats .rowPrice::after { content: '175.00'; }
+#Avengers332to343Link  .colStats .rowPrice::after { content: '23.95'; }
+#avengers8cgc50Link    .colStats .rowPrice::after { content: '850.00'; }

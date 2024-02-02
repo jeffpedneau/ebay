@@ -13,5 +13,4 @@
  */
 
 /* LINK DATA */
-#cap334pressedLink .colStats .rowPrice::before { content: '6.25'; color: red; } #cap334pressedLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
-#cap337pressedLink .colStats .rowPrice::before { content: '19.00'; color: red; } #cap337pressedLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#cap141pressedBLink .colStats .rowPrice::after { content: '14.75'; }
