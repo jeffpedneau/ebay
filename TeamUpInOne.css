@@ -29,7 +29,7 @@
 #mtu95pressedCLink     .colStats .rowPrice::after { content: '32.00'; }
 #mtu100pressedCLink    .colStats .rowPrice::before { content: '10.95'; color: red; } #mtu100pressedCLink    .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #mtu103pressedLink     .colStats .rowPrice::after { content: '11.75'; }
-#mtu107pressedLink     .colStats .rowPrice::after { content: '7.50'; }
+#mtu107pressedLink     .colStats .rowPrice::before { content: '7.50'; color: red; } #mtu100pressedCLink    .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #mtu117pressedLink     .colStats .rowPrice::before { content: '12.50'; color: red; } #mtu117pressedLink     .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #mtu121pressedLink     .colStats .rowPrice::after { content: '7.25'; }
 #mtu131pressedLink     .colStats .rowPrice::before { content: '34.00'; color: red; } #mtu131pressedLink     .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
