@@ -12,4 +12,4 @@
  */
 
 /* LINK DATA */
-#dd7pressedLink .colStats .rowPrice::after { content: '525.00'; }
+#dd7pressedLink .colStats .rowPrice::before { content: '525.00'; color: red; } #dd7pressedLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
