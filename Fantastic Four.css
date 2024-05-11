@@ -12,5 +12,5 @@
 /* LINK DATA */
 #ff52reprintBpressedLink .colStats .rowPrice::after { content: '9.50'; }
 #ff67pressedLink         .colStats .rowPrice::after { content: '125.00'; }
-#ff347to349firstLink     .colStats .rowPrice::after { content: ''; } #ff347to349firstLink     { display: none }
 #ff347to349firstLink     .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink     { display: none }
+#ff347to349firstLink     .colStats .rowPrice::after { content: ''; }

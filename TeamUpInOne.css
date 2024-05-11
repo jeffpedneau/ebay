@@ -24,6 +24,6 @@
 
 /* LINK DATA */
 #mtu53pressedLink      .colStats .rowPrice::after { content: '19.95'; }
-#mtu95pressedCLink     .colStats .rowPrice::after { content: '32.00'; }
-#mtu103pressedLink     .colStats .rowPrice::after { content: '11.75'; }
+#mtu95pressedCLink     .colStats .rowPrice::after { content: '29.95'; }
+#mtu103pressedLink     .colStats .rowPrice::after { content: '9.95'; }
 #mtu65and66pressedLink .colStats .rowPrice::after { content: '89.00'; }

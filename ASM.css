@@ -19,15 +19,15 @@
 
 
 /* LINK DATA */
-#asm49pressedCLink      .colStats .rowPrice::after { content: '67.50'; }
-#asm54pressedBLink      .colStats .rowPrice::after { content: '59.00'; }
-#asm71pressedBLink      .colStats .rowPrice::after { content: '62.00'; }
+#asm49pressedCLink      .colStats .rowPrice::after { content: '56.00'; }
+#asm54pressedBLink      .colStats .rowPrice::after { content: '49.00'; }
+#asm71pressedBLink      .colStats .rowPrice::after { content: '58.00'; }
 #asm77pressedBLink      .colStats .rowPrice::before { content: '49.00'; color: red; } #asm77pressedBLink      .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #asm91pressedLink       .colStats .rowPrice::before { content: '43.00'; color: red; } #asm91pressedLink       .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
-#asm136pressedBLink     .colStats .rowPrice::after { content: '62.00'; }
+#asm136pressedBLink     .colStats .rowPrice::after { content: '44.00'; }
 #asm161pressedLink      .colStats .rowPrice::after { content: '19.95'; }
 #asm168pressedLink      .colStats .rowPrice::after { content: '11.00'; }
 #asm299pressedLink      .colStats .rowPrice::after { content: '99.95'; }
-#asmAimPressedLink      .colStats .rowPrice::after { content: '7.95'; }
+#asmAimPressedLink      .colStats .rowPrice::after { content: '4.95'; }
 #asmMSH14Link           .colStats .rowPrice::after { content: '6.80'; }
 #asm209spec251to253Link .colStats .rowPrice::before { content: '42.00'; color: red; } #asm209spec251to253Link .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
