@@ -22,7 +22,6 @@
 #sub3pressedDLink  .colStats .rowPrice::after { content: '36.50'; }
 #sub5pressedBLink  .colStats .rowPrice::after { content: '62.00'; }
 #sub7pressedALink  .colStats .rowPrice::after { content: '114.00'; }
-#sub14pressedLink  .colStats .rowPrice::before { content: '42.00'; color: red; } #sub14pressedLink  .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #sub19pressedBLink .colStats .rowPrice::after { content: '54.00'; }
 #sub23pressedALink .colStats .rowPrice::after { content: '51.00'; }
 #sub23pressedBLink .colStats .rowPrice::after { content: '29.00'; }
