@@ -32,9 +32,9 @@
     font-size: 12pt;
     content: '\a (I ship on Monday and Thursday mornings.)';
 
-    /* color: blue; */
+    color: blue;
 
-    /* content: '\a \a *** ANNOUNCEMENT ***\a \a USPS has increased their shipping rate by OVER 12 PERCENT since last summer, \a which has tragically forced me raise my rate as well, as of July, 2023.\a \a But my increase is LESS THAN 7 PERCENT more than what it was last summer,\a as I am trying hard to bear the brunt where I can to keep your cost down as much as possible. \a \a Thank you so much to all of you who have been my buyers these last \a few years on eBay, and I hope to continue to serve you into the future. \a \a'; */
+    content: '\a \a *** ANNOUNCEMENT ***\a \a USPS has increased their shipping rate by OVER 12 PERCENT since January, \a which has tragically forced me raise my rate as well, as of July, 2024.\a \a But my increase is closer to 10 PERCENT (as opposed to 12),\a as I am trying hard to bear the brunt where I can to keep your cost down as much as possible. \a \a Thank you so much to all of you who have been my buyers these last \a few years on eBay, and I hope to continue to serve you into the future. \a \a';
     /* content: '\a \a I am currently away, and all my listings are temporarily suspended. \a \a I will be returning on July 29. \a Thank you for your patience. \a \a '; */
     /* content: '\a \a I will be away from October 31 - November 7, \a and my listings will be temporarily suspended. \a \a The last day you can order before I leave is Sunday, October 30. \a Thank you for your patience. \a \a '; */
     /* content: '\a \a I am currently away until July 28. \a \a You can still order books, but I will not ship again \a until I get back, so please consider that when you order. \a \a Thank you for your patience. \a \a '; */
@@ -73,7 +73,7 @@
 .eligible-after::before  { content: '(details below)'; }
 
 .shiprate::before, .eligible-shiprate::before {
-    content: ' Unlimited $5.29 Shipping Rate ';
+    content: ' Unlimited $5.85 Shipping Rate ';
 }
 
 .snugup { margin-top: .5rem; }
@@ -115,11 +115,11 @@ table.issueTable tr td:nth-of-type(1) {
 
 .totalShipping { color: red; }
 .totalShipping::before {
-    content: ' $5.29 TOTAL SHIPPING ';
+    content: ' $5.85 TOTAL SHIPPING ';
 }
 
 .afterShipping::before {
-    content: '– meaning you buy one book?  You pay $5.29.  You buy 100?  You STILL pay 5.29, so make sure you bundle whenever possible to pile up on the savings, and don\'t forget to use the Add to Cart feature and Continue Shopping which will allow you to finally request a combined invoice that will allow me to apply the discount.  Let me know if ebay gives you any problems here -- we\'ll work through them.';
+    content: '– meaning you buy one book?  You pay $5.85.  You buy 100?  You STILL pay 5.85, so make sure you bundle whenever possible to pile up on the savings, and don\'t forget to use the Add to Cart feature and Continue Shopping which will allow you to finally request a combined invoice that will allow me to apply the discount.  Let me know if ebay gives you any problems here -- we\'ll work through them.';
 }
 
 .seelinktitle::before {
