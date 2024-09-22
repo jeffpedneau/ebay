@@ -12,4 +12,4 @@
 
 
 /* LINK DATA */
-#spec9pressedBLink .colStats .rowPrice::after { content: '24.50'; }
+#spec9pressedBLink .colStats .rowPrice::before { content: '24.50'; color: red; } #spec9pressedBLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
