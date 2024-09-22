@@ -25,5 +25,5 @@
 #asm136pressedBLink .colStats .rowPrice::after { content: '44.00'; }
 #asm161pressedLink  .colStats .rowPrice::before { content: '19.95'; color: red; } #asm161pressedLink  .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #asm168pressedLink  .colStats .rowPrice::after { content: '11.00'; }
-#asmAimPressedLink  .colStats .rowPrice::after { content: '4.95'; }
+#asmAimPressedLink  .colStats .rowPrice::before { content: '4.95'; color: red; } #asmAimPressedLink  .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #asmMSH14Link       .colStats .rowPrice::after { content: '6.80'; }
