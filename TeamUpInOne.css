@@ -23,7 +23,7 @@
 /* .comingSoon .colDetail::after  { display: block; content: ' Working my way backwards from 20 down to fill in the gaps.  Please be patient... '} */
 
 /* LINK DATA */
-#mtu53pressedLink      .colStats .rowPrice::after { content: '19.95'; }
+#mtu53pressedLink      .colStats .rowPrice::before { content: '19.95'; color: red; } #mtu53pressedLink      .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #mtu95pressedCLink     .colStats .rowPrice::after { content: '29.95'; }
 #mtu103pressedLink     .colStats .rowPrice::after { content: '9.95'; }
 #mtu65and66pressedLink .colStats .rowPrice::after { content: '89.00'; }
