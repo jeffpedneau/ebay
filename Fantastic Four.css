@@ -10,7 +10,31 @@
 /* .comingSoon .colDetail::after  { display: block; content: 'I will be filling in the gap between issues 77 and 103 over the next few weeks, and I have plenty, so check back often, and if you are looking for a specific issue, please send me a message.  I might have it and could list it for you.'; } */
 
 /* LINK DATA */
-#ff52reprintBpressedLink .colStats .rowPrice::after { content: '9.50'; }
-#ff67pressedLink         .colStats .rowPrice::after { content: '125.00'; }
-#ff347to349firstLink     .colStats .rowPrice::after { content: ''; } #ff347to349firstLink     { display: none }
-#ff347to349firstLink     .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink     { display: none }
+#ff52reprintBpressedLink     .colStats .rowPrice::after { content: '9.50'; }
+#ff67pressedLink             .colStats .rowPrice::after { content: '125.00'; }
+#ff347to349firstLink         .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink         { display: none }
+#ff347to349firstLink         .colStats .rowPrice::after { content: ''; }
+#ff100pressedBLink           .colStats .rowPrice::after { content: '21.50'; } #ff100pressedBLink           { display: none }
+#ff102pressedALink           .colStats .rowPrice::after { content: '24.75'; } #ff102pressedALink           { display: none }
+#ff104pressedLink            .colStats .rowPrice::after { content: '23.75'; } #ff104pressedLink            { display: none }
+#ff108pressedLink            .colStats .rowPrice::after { content: '23.95'; } #ff108pressedLink            { display: none }
+#ff109pressedLink            .colStats .rowPrice::after { content: '23.50'; } #ff109pressedLink            { display: none }
+#ff177pressedMarkJewelerLink .colStats .rowPrice::after { content: '17.00'; } #ff177pressedMarkJewelerLink { display: none }
+#ff245pressedALink           .colStats .rowPrice::after { content: '17.25'; } #ff245pressedALink           { display: none }
+#ff245pressedBLink           .colStats .rowPrice::after { content: '14.75'; } #ff245pressedBLink           { display: none }
+#ff245pressedCLink           .colStats .rowPrice::after { content: '17.95'; } #ff245pressedCLink           { display: none }
+#ff77pressedALink            .colStats .rowPrice::after { content: '55.00'; } #ff77pressedALink            { display: none }
+#ff77pressedBLink            .colStats .rowPrice::after { content: '145.00'; } #ff77pressedBLink            { display: none }
+#ff77pressedCLink            .colStats .rowPrice::after { content: '24.50'; } #ff77pressedCLink            { display: none }
+#ff88pressedLink             .colStats .rowPrice::after { content: '19.95'; } #ff88pressedLink             { display: none }
+#ff93pressedBLink            .colStats .rowPrice::after { content: '18.95'; } #ff93pressedBLink            { display: none }
+#ff80pressedDLink            .colStats .rowPrice::after { content: '32.00'; } #ff80pressedDLink            { display: none }
+#ff81pressedDLink            .colStats .rowPrice::after { content: '24.75'; } #ff81pressedDLink            { display: none }
+#ff82pressedCLink            .colStats .rowPrice::after { content: '34.75'; } #ff82pressedCLink            { display: none }
+#ff82pressedDLink            .colStats .rowPrice::after { content: '27.00'; } #ff82pressedDLink            { display: none }
+#ff83pressedALink            .colStats .rowPrice::after { content: '23.95'; } #ff83pressedALink            { display: none }
+#ff84pressedALink            .colStats .rowPrice::after { content: '55.00'; } #ff84pressedALink            { display: none }
+#ff85pressedCLink            .colStats .rowPrice::after { content: '19.50'; } #ff85pressedCLink            { display: none }
+#ff86pressedBLink            .colStats .rowPrice::after { content: '45.00'; } #ff86pressedBLink            { display: none }
+#ff86pressedCLink            .colStats .rowPrice::after { content: '38.00'; } #ff86pressedCLink            { display: none }
+#ff87pressedDLink            .colStats .rowPrice::after { content: '42.00'; } #ff87pressedDLink            { display: none }
