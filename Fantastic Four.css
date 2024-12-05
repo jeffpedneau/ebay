@@ -78,3 +78,4 @@
 #ff74pressedCLink            .colStats .rowPrice::after { content: '127.00'; } #ff74pressedCLink            { display: none }
 #ff75pressedBLink            .colStats .rowPrice::after { content: '225.00'; } #ff75pressedBLink            { display: none }
 #ffAnnual5pressedLink        .colStats .rowPrice::after { content: '65.00'; } #ffAnnual5pressedLink        { display: none }
+#ff48reprintLink             .colStats .rowPrice::after { content: '29.00'; } #ff48reprintLink             { display: none }
