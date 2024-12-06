@@ -10,72 +10,72 @@
 /* .comingSoon .colDetail::after  { display: block; content: 'I will be filling in the gap between issues 77 and 103 over the next few weeks, and I have plenty, so check back often, and if you are looking for a specific issue, please send me a message.  I might have it and could list it for you.'; } */
 
 /* LINK DATA */
-#ff17pressedLink             .colStats .rowPrice::after { content: '395.00'; } #ff17pressedLink             { display: none }
-#ff20pressedALink            .colStats .rowPrice::after { content: '295.00'; } #ff20pressedALink            { display: none }
-#ff20pressedBLink            .colStats .rowPrice::after { content: '325.00'; } #ff20pressedBLink            { display: none }
-#ff22pressedLink             .colStats .rowPrice::after { content: '139.00'; } #ff22pressedLink             { display: none }
-#ff31pressedLink             .colStats .rowPrice::after { content: '52.00'; } #ff31pressedLink             { display: none }
-#ff35pressedLink             .colStats .rowPrice::after { content: '145.00'; } #ff35pressedLink             { display: none }
-#ff36pressedLink             .colStats .rowPrice::after { content: '320.00'; } #ff36pressedLink             { display: none }
-#ff37pressedLink             .colStats .rowPrice::after { content: '75.00'; } #ff37pressedLink             { display: none }
-#ff38pressedLink             .colStats .rowPrice::after { content: '41.50'; } #ff38pressedLink             { display: none }
-#ff42pressedALink            .colStats .rowPrice::after { content: '38.50'; } #ff42pressedALink            { display: none }
+#ff17pressedLink             .colStats .rowPrice::after { content: '395.00'; }
+#ff20pressedALink            .colStats .rowPrice::after { content: '295.00'; }
+#ff20pressedBLink            .colStats .rowPrice::after { content: '325.00'; }
+#ff22pressedLink             .colStats .rowPrice::after { content: '139.00'; }
+#ff31pressedLink             .colStats .rowPrice::after { content: '52.00'; }
+#ff35pressedLink             .colStats .rowPrice::after { content: '145.00'; }
+#ff36pressedLink             .colStats .rowPrice::after { content: '320.00'; }
+#ff37pressedLink             .colStats .rowPrice::after { content: '75.00'; }
+#ff38pressedLink             .colStats .rowPrice::after { content: '41.50'; }
+#ff42pressedALink            .colStats .rowPrice::after { content: '38.50'; }
 #ff42pressedBLink            .colStats .rowPrice::after { content: '38.50'; } #ff42pressedBLink            { display: none }
-#ff45pressedLink             .colStats .rowPrice::after { content: '220.00'; } #ff45pressedLink             { display: none }
-#ff47pressedLink             .colStats .rowPrice::after { content: '118.00'; } #ff47pressedLink             { display: none }
-#ff48reprintLink             .colStats .rowPrice::after { content: '29.00'; } #ff48reprintLink             { display: none }
-#ff52reprintBpressedLink     .colStats .rowPrice::after { content: '9.50'; }
-#ff53pressedLink             .colStats .rowPrice::after { content: '190.00'; } #ff53pressedLink             { display: none }
-#ff54pressedALink            .colStats .rowPrice::after { content: '46.00'; } #ff54pressedALink            { display: none }
-#ff54pressedBLink            .colStats .rowPrice::after { content: '32.00'; } #ff54pressedBLink            { display: none }
-#ff55pressedALink            .colStats .rowPrice::after { content: '124.00'; } #ff55pressedALink            { display: none }
-#ff55pressedBLink            .colStats .rowPrice::after { content: '95.00'; } #ff55pressedBLink            { display: none }
-#ff56pressedLink             .colStats .rowPrice::after { content: '24.50'; } #ff56pressedLink             { display: none }
-#ff58pressedALink            .colStats .rowPrice::after { content: '39.00'; } #ff58pressedALink            { display: none }
-#ff58pressedBLink            .colStats .rowPrice::after { content: '32.00'; } #ff58pressedBLink            { display: none }
-#ff59pressedALink            .colStats .rowPrice::after { content: '22.00'; } #ff59pressedALink            { display: none }
-#ff59pressedBLink            .colStats .rowPrice::after { content: '47.75'; } #ff59pressedBLink            { display: none }
-#ff60pressedALink            .colStats .rowPrice::after { content: '38.00'; } #ff60pressedALink            { display: none }
-#ff60pressedBLink            .colStats .rowPrice::after { content: '38.00'; } #ff60pressedBLink            { display: none }
-#ff62pressedLink             .colStats .rowPrice::after { content: '39.00'; } #ff62pressedLink             { display: none }
-#ff63pressedALink            .colStats .rowPrice::after { content: '18.95'; } #ff63pressedALink            { display: none }
-#ff63pressedBLink            .colStats .rowPrice::after { content: '24.95'; } #ff63pressedBLink            { display: none }
-#ff64pressedLink             .colStats .rowPrice::after { content: '19.75'; } #ff64pressedLink             { display: none }
-#ff65pressedALink            .colStats .rowPrice::after { content: '46.00'; } #ff65pressedALink            { display: none }
-#ff65pressedBLink            .colStats .rowPrice::after { content: '28.00'; } #ff65pressedBLink            { display: none }
+#ff45pressedLink             .colStats .rowPrice::after { content: '220.00'; }
+#ff47pressedLink             .colStats .rowPrice::after { content: '118.00'; }
+#ff48reprintLink             .colStats .rowPrice::after { content: '29.00'; }
+#ff52reprintBpressedLink     .colStats .rowPrice::after { content: '8.95'; }
+#ff53pressedLink             .colStats .rowPrice::after { content: '190.00'; }
+#ff54pressedALink            .colStats .rowPrice::after { content: '46.00'; }
+#ff54pressedBLink            .colStats .rowPrice::after { content: '32.00'; }
+#ff55pressedALink            .colStats .rowPrice::after { content: '124.00'; }
+#ff55pressedBLink            .colStats .rowPrice::after { content: '95.00'; }
+#ff56pressedLink             .colStats .rowPrice::after { content: '24.50'; }
+#ff58pressedALink            .colStats .rowPrice::after { content: '39.00'; }
+#ff58pressedBLink            .colStats .rowPrice::after { content: '32.00'; }
+#ff59pressedALink            .colStats .rowPrice::after { content: '22.00'; }
+#ff59pressedBLink            .colStats .rowPrice::after { content: '47.75'; }
+#ff60pressedALink            .colStats .rowPrice::after { content: '38.00'; }
+#ff60pressedBLink            .colStats .rowPrice::after { content: '38.00'; }
+#ff62pressedLink             .colStats .rowPrice::after { content: '39.00'; }
+#ff63pressedALink            .colStats .rowPrice::after { content: '18.95'; }
+#ff63pressedBLink            .colStats .rowPrice::after { content: '24.95'; }
+#ff64pressedLink             .colStats .rowPrice::after { content: '19.75'; }
+#ff65pressedALink            .colStats .rowPrice::after { content: '46.00'; }
+#ff65pressedBLink            .colStats .rowPrice::after { content: '28.00'; }
 #ff67pressedLink             .colStats .rowPrice::after { content: '125.00'; }
-#ff69pressedALink            .colStats .rowPrice::after { content: '21.00'; } #ff69pressedALink            { display: none }
-#ff70pressedALink            .colStats .rowPrice::after { content: '18.50'; } #ff70pressedALink            { display: none }
-#ff72pressedLink             .colStats .rowPrice::after { content: '225.00'; } #ff72pressedLink             { display: none }
-#ff73pressedLink             .colStats .rowPrice::after { content: '16.00'; } #ff73pressedLink             { display: none }
-#ff74pressedALink            .colStats .rowPrice::after { content: '65.00'; } #ff74pressedALink            { display: none }
-#ff74pressedBLink            .colStats .rowPrice::after { content: '135.00'; } #ff74pressedBLink            { display: none }
-#ff74pressedCLink            .colStats .rowPrice::after { content: '127.00'; } #ff74pressedCLink            { display: none }
-#ff75pressedBLink            .colStats .rowPrice::after { content: '225.00'; } #ff75pressedBLink            { display: none }
-#ff77pressedALink            .colStats .rowPrice::after { content: '55.00'; } #ff77pressedALink            { display: none }
-#ff77pressedBLink            .colStats .rowPrice::after { content: '145.00'; } #ff77pressedBLink            { display: none }
-#ff77pressedCLink            .colStats .rowPrice::after { content: '24.50'; } #ff77pressedCLink            { display: none }
-#ff80pressedDLink            .colStats .rowPrice::after { content: '32.00'; } #ff80pressedDLink            { display: none }
-#ff81pressedDLink            .colStats .rowPrice::after { content: '24.75'; } #ff81pressedDLink            { display: none }
-#ff82pressedCLink            .colStats .rowPrice::after { content: '34.75'; } #ff82pressedCLink            { display: none }
-#ff82pressedDLink            .colStats .rowPrice::after { content: '27.00'; } #ff82pressedDLink            { display: none }
-#ff83pressedALink            .colStats .rowPrice::after { content: '23.95'; } #ff83pressedALink            { display: none }
-#ff84pressedALink            .colStats .rowPrice::after { content: '55.00'; } #ff84pressedALink            { display: none }
-#ff85pressedCLink            .colStats .rowPrice::after { content: '19.50'; } #ff85pressedCLink            { display: none }
-#ff86pressedBLink            .colStats .rowPrice::after { content: '45.00'; } #ff86pressedBLink            { display: none }
-#ff86pressedCLink            .colStats .rowPrice::after { content: '38.00'; } #ff86pressedCLink            { display: none }
-#ff87pressedDLink            .colStats .rowPrice::after { content: '42.00'; } #ff87pressedDLink            { display: none }
-#ff88pressedLink             .colStats .rowPrice::after { content: '19.95'; } #ff88pressedLink             { display: none }
-#ff93pressedBLink            .colStats .rowPrice::after { content: '18.95'; } #ff93pressedBLink            { display: none }
+#ff69pressedALink            .colStats .rowPrice::after { content: '21.00'; }
+#ff70pressedALink            .colStats .rowPrice::after { content: '18.50'; }
+#ff72pressedLink             .colStats .rowPrice::after { content: '225.00'; }
+#ff73pressedLink             .colStats .rowPrice::after { content: '16.00'; }
+#ff74pressedALink            .colStats .rowPrice::after { content: '65.00'; }
+#ff74pressedBLink            .colStats .rowPrice::after { content: '135.00'; }
+#ff74pressedCLink            .colStats .rowPrice::after { content: '127.00'; }
+#ff75pressedBLink            .colStats .rowPrice::after { content: '225.00'; }
+#ff77pressedALink            .colStats .rowPrice::after { content: '55.00'; }
+#ff77pressedBLink            .colStats .rowPrice::after { content: '145.00'; }
+#ff77pressedCLink            .colStats .rowPrice::after { content: '24.50'; }
+#ff80pressedDLink            .colStats .rowPrice::after { content: '32.00'; }
+#ff81pressedDLink            .colStats .rowPrice::after { content: '24.75'; }
+#ff82pressedCLink            .colStats .rowPrice::after { content: '34.75'; }
+#ff82pressedDLink            .colStats .rowPrice::after { content: '27.00'; }
+#ff83pressedALink            .colStats .rowPrice::after { content: '23.95'; }
+#ff84pressedALink            .colStats .rowPrice::after { content: '55.00'; }
+#ff85pressedCLink            .colStats .rowPrice::after { content: '19.50'; }
+#ff86pressedBLink            .colStats .rowPrice::after { content: '45.00'; }
+#ff86pressedCLink            .colStats .rowPrice::after { content: '38.00'; }
+#ff87pressedDLink            .colStats .rowPrice::after { content: '42.00'; }
+#ff88pressedLink             .colStats .rowPrice::after { content: '19.95'; }
+#ff93pressedBLink            .colStats .rowPrice::after { content: '18.95'; }
 #ff100pressedBLink           .colStats .rowPrice::after { content: '21.50'; }
-#ff102pressedALink           .colStats .rowPrice::after { content: '24.75'; } #ff102pressedALink           { display: none }
-#ff104pressedLink            .colStats .rowPrice::after { content: '23.75'; } #ff104pressedLink            { display: none }
-#ff108pressedLink            .colStats .rowPrice::after { content: '23.95'; } #ff108pressedLink            { display: none }
-#ff109pressedLink            .colStats .rowPrice::after { content: '23.50'; } #ff109pressedLink            { display: none }
-#ff177pressedMarkJewelerLink .colStats .rowPrice::after { content: '17.00'; } #ff177pressedMarkJewelerLink { display: none }
-#ff245pressedALink           .colStats .rowPrice::after { content: '17.25'; } #ff245pressedALink           { display: none }
-#ff245pressedBLink           .colStats .rowPrice::after { content: '14.75'; } #ff245pressedBLink           { display: none }
-#ff245pressedCLink           .colStats .rowPrice::after { content: '17.95'; } #ff245pressedCLink           { display: none }
-#ffAnnual5pressedLink        .colStats .rowPrice::after { content: '65.00'; } #ffAnnual5pressedLink        { display: none }
-#ff347to349firstLink         .colStats .rowPrice::after { content: ''; } #ff347to349firstLink         { display: none }
+#ff102pressedALink           .colStats .rowPrice::after { content: '24.75'; }
+#ff104pressedLink            .colStats .rowPrice::after { content: '23.75'; }
+#ff108pressedLink            .colStats .rowPrice::after { content: '23.95'; }
+#ff109pressedLink            .colStats .rowPrice::after { content: '23.50'; }
+#ff177pressedMarkJewelerLink .colStats .rowPrice::after { content: '17.00'; }
+#ff245pressedALink           .colStats .rowPrice::after { content: '17.25'; }
+#ff245pressedBLink           .colStats .rowPrice::after { content: '14.75'; }
+#ff245pressedCLink           .colStats .rowPrice::after { content: '17.95'; }
+#ffAnnual5pressedLink        .colStats .rowPrice::after { content: '65.00'; }
 #ff347to349firstLink         .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink         { display: none }
+#ff347to349firstLink         .colStats .rowPrice::after { content: ''; }
