@@ -77,5 +77,8 @@
 #ff245pressedBLink           .colStats .rowPrice::after { content: '14.75'; }
 #ff245pressedCLink           .colStats .rowPrice::after { content: '17.95'; }
 #ffAnnual5pressedLink        .colStats .rowPrice::after { content: '65.00'; }
+#ffIndex1to12Link            .colStats .rowPrice::after { content: '17.95'; }
+#ff301to330lotOf30Link       .colStats .rowPrice::after { content: '117.00'; }
 #ff347to349firstLink         .colStats .rowPrice::after { content: ''; } #ff347to349firstLink         { display: none }
 #ff347to349firstLink         .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink         { display: none }
+#ff367to416lotOf50Link       .colStats .rowPrice::after { content: '195.00'; }
