@@ -18,7 +18,7 @@
 #ff35pressedLink             .colStats .rowPrice::after { content: '145.00'; }
 #ff36pressedLink             .colStats .rowPrice::after { content: '320.00'; }
 #ff37pressedLink             .colStats .rowPrice::after { content: '75.00'; }
-#ff38pressedLink             .colStats .rowPrice::after { content: '41.50'; }
+#ff38pressedLink             .colStats .rowPrice::before { content: '41.50'; color: red; } #ff38pressedLink             .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff42pressedALink            .colStats .rowPrice::after { content: '38.50'; }
 #ff42pressedBLink            .colStats .rowPrice::after { content: '38.50'; } #ff42pressedBLink            { display: none }
 #ff45pressedLink             .colStats .rowPrice::after { content: '220.00'; }
@@ -38,7 +38,7 @@
 #ff60pressedALink            .colStats .rowPrice::after { content: '38.00'; }
 #ff60pressedBLink            .colStats .rowPrice::after { content: '38.00'; }
 #ff62pressedLink             .colStats .rowPrice::after { content: '39.00'; }
-#ff63pressedALink            .colStats .rowPrice::after { content: '18.95'; }
+#ff63pressedALink            .colStats .rowPrice::before { content: '18.95'; color: red; } #ff63pressedALink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff63pressedBLink            .colStats .rowPrice::after { content: '24.95'; }
 #ff64pressedLink             .colStats .rowPrice::after { content: '19.75'; }
 #ff65pressedALink            .colStats .rowPrice::after { content: '46.00'; }
@@ -77,5 +77,5 @@
 #ff245pressedBLink           .colStats .rowPrice::after { content: '14.75'; }
 #ff245pressedCLink           .colStats .rowPrice::after { content: '17.95'; }
 #ffAnnual5pressedLink        .colStats .rowPrice::after { content: '65.00'; }
+#ff347to349firstLink         .colStats .rowPrice::after { content: ''; } #ff347to349firstLink         { display: none }
 #ff347to349firstLink         .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink         { display: none }
-#ff347to349firstLink         .colStats .rowPrice::after { content: ''; }
