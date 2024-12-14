@@ -73,6 +73,7 @@
 #ff108pressedLink            .colStats .rowPrice::after { content: '23.95'; }
 #ff109pressedLink            .colStats .rowPrice::after { content: '23.50'; }
 #ff177pressedMarkJewelerLink .colStats .rowPrice::after { content: '17.00'; }
+#ff211pressedFLink           .colStats .rowPrice::after { content: '14.95'; }
 #ff245pressedALink           .colStats .rowPrice::after { content: '17.25'; }
 #ff245pressedBLink           .colStats .rowPrice::after { content: '14.75'; }
 #ff245pressedCLink           .colStats .rowPrice::after { content: '17.95'; }
@@ -82,3 +83,4 @@
 #ff347to349firstLink         .colStats .rowPrice::after { content: ''; } #ff347to349firstLink         { display: none }
 #ff347to349firstLink         .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink         { display: none }
 #ff367to416lotOf50Link       .colStats .rowPrice::after { content: '195.00'; }
+#ff49cgc30restoredLink       .colStats .rowPrice::after { content: ''; } #ff49cgc30restoredLink       { display: none }
