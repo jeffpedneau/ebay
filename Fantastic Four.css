@@ -13,7 +13,7 @@
 #ff17pressedLink             .colStats .rowPrice::after { content: '395.00'; }
 #ff20pressedALink            .colStats .rowPrice::after { content: '295.00'; }
 #ff20pressedBLink            .colStats .rowPrice::after { content: '325.00'; }
-#ff22pressedLink             .colStats .rowPrice::after { content: '139.00'; }
+#ff22pressedLink             .colStats .rowPrice::before { content: '139.00'; color: red; } #ff22pressedLink             .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff31pressedLink             .colStats .rowPrice::after { content: '52.00'; }
 #ff35pressedLink             .colStats .rowPrice::after { content: '145.00'; }
 #ff36pressedLink             .colStats .rowPrice::after { content: '320.00'; }
@@ -37,7 +37,7 @@
 #ff59pressedBLink            .colStats .rowPrice::after { content: '47.75'; }
 #ff60pressedALink            .colStats .rowPrice::after { content: '38.00'; }
 #ff60pressedBLink            .colStats .rowPrice::after { content: '38.00'; }
-#ff62pressedLink             .colStats .rowPrice::after { content: '39.00'; }
+#ff62pressedLink             .colStats .rowPrice::before { content: '39.00'; color: red; } #ff62pressedLink             .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff63pressedALink            .colStats .rowPrice::before { content: '18.95'; color: red; } #ff63pressedALink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff63pressedBLink            .colStats .rowPrice::after { content: '24.95'; }
 #ff64pressedLink             .colStats .rowPrice::after { content: '19.75'; }
@@ -71,7 +71,7 @@
 #ff102pressedALink           .colStats .rowPrice::after { content: '24.75'; }
 #ff104pressedLink            .colStats .rowPrice::after { content: '23.75'; }
 #ff108pressedLink            .colStats .rowPrice::after { content: '23.95'; }
-#ff109pressedLink            .colStats .rowPrice::after { content: '23.50'; }
+#ff109pressedLink            .colStats .rowPrice::before { content: '23.50'; color: red; } #ff109pressedLink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff177pressedMarkJewelerLink .colStats .rowPrice::after { content: '17.00'; }
 #ff211pressedFLink           .colStats .rowPrice::after { content: '14.95'; }
 #ff245pressedALink           .colStats .rowPrice::after { content: '17.25'; }
