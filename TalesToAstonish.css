@@ -13,6 +13,5 @@
 /* .comingSoon .colDetail::after  { display: block; content: ' Working to fill in the gap after issue 56, so please be patient... '} */
 
 /* LINK DATA */
-#tta68pressedLink            .colStats .rowPrice::after { content: '29.95'; }
-#tta90pressedLink            .colStats .rowPrice::after { content: '69.00'; }
-#ironmanSubmarinerLotOf4Link .colStats .rowPrice::before { content: '105.00'; color: red; } #ironmanSubmarinerLotOf4Link .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
+#tta68pressedLink .colStats .rowPrice::after { content: '29.95'; }
+#tta90pressedLink .colStats .rowPrice::after { content: '69.00'; }
