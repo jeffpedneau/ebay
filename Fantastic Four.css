@@ -57,7 +57,7 @@
 #ff77pressedCLink            .colStats .rowPrice::after { content: '24.50'; }
 #ff80pressedDLink            .colStats .rowPrice::after { content: '32.00'; }
 #ff81pressedDLink            .colStats .rowPrice::after { content: '24.75'; }
-#ff82pressedCLink            .colStats .rowPrice::after { content: '34.75'; }
+#ff82pressedCLink            .colStats .rowPrice::before { content: '34.75'; color: red; } #ff82pressedCLink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff82pressedDLink            .colStats .rowPrice::after { content: '27.00'; }
 #ff83pressedALink            .colStats .rowPrice::after { content: '23.95'; }
 #ff84pressedALink            .colStats .rowPrice::after { content: '55.00'; }
