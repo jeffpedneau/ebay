@@ -31,12 +31,12 @@
 #ff55pressedALink            .colStats .rowPrice::after { content: '124.00'; }
 #ff55pressedBLink            .colStats .rowPrice::after { content: '95.00'; }
 #ff56pressedLink             .colStats .rowPrice::after { content: '24.50'; }
-#ff58pressedALink            .colStats .rowPrice::after { content: '39.00'; }
+#ff58pressedALink            .colStats .rowPrice::before { content: '39.00'; color: red; } #ff58pressedALink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff58pressedBLink            .colStats .rowPrice::before { content: '32.00'; color: red; } #ff58pressedBLink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff59pressedALink            .colStats .rowPrice::after { content: '22.00'; }
 #ff59pressedBLink            .colStats .rowPrice::after { content: '47.75'; }
 #ff60pressedALink            .colStats .rowPrice::after { content: '38.00'; }
-#ff60pressedBLink            .colStats .rowPrice::after { content: '38.00'; }
+#ff60pressedBLink            .colStats .rowPrice::before { content: '38.00'; color: red; } #ff60pressedBLink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff62pressedLink             .colStats .rowPrice::before { content: '39.00'; color: red; } #ff62pressedLink             .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff63pressedALink            .colStats .rowPrice::before { content: '18.95'; color: red; } #ff63pressedALink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff63pressedBLink            .colStats .rowPrice::after { content: '24.95'; }
