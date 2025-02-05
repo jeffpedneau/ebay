@@ -68,7 +68,7 @@
 #ff93pressedBLink            .colStats .rowPrice::before { content: '18.95'; color: red; } #ff93pressedBLink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff100pressedBLink           .colStats .rowPrice::before { content: '21.50'; color: red; } #ff100pressedBLink           .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff102pressedALink           .colStats .rowPrice::after { content: '24.75'; }
-#ff104pressedLink            .colStats .rowPrice::after { content: '23.75'; }
+#ff104pressedLink            .colStats .rowPrice::before { content: '23.75'; color: red; } #ff104pressedLink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff108pressedLink            .colStats .rowPrice::after { content: '23.95'; }
 #ff109pressedLink            .colStats .rowPrice::before { content: '23.50'; color: red; } #ff109pressedLink            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff177pressedMarkJewelerLink .colStats .rowPrice::after { content: '17.00'; }
