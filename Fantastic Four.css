@@ -25,7 +25,7 @@
 #ff47pressedLink             .colStats .rowPrice::after { content: '118.00'; }
 #ff48reprintLink             .colStats .rowPrice::before { content: '29.00'; color: red; } #ff48reprintLink             .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff52reprintBpressedLink     .colStats .rowPrice::after { content: '8.95'; }
-#ff53pressedLink             .colStats .rowPrice::after { content: '190.00'; }
+#ff53pressedLink             .colStats .rowPrice::after { content: '225.00'; }
 #ff54pressedALink            .colStats .rowPrice::after { content: '46.00'; }
 #ff54pressedBLink            .colStats .rowPrice::after { content: '32.00'; }
 #ff55pressedALink            .colStats .rowPrice::after { content: '124.00'; }
@@ -79,7 +79,7 @@
 #ffAnnual5pressedLink        .colStats .rowPrice::after { content: '65.00'; }
 #ffIndex1to12Link            .colStats .rowPrice::before { content: '17.95'; color: red; } #ffIndex1to12Link            .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff301to330lotOf30Link       .colStats .rowPrice::after { content: '117.00'; }
-#ff347to349firstLink         .colStats .rowPrice::after { content: ''; } #ff347to349firstLink         { display: none }
 #ff347to349firstLink         .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink         { display: none }
+#ff347to349firstLink         .colStats .rowPrice::after { content: ''; }
 #ff367to416lotOf50Link       .colStats .rowPrice::after { content: '195.00'; }
 #ff49cgc30restoredLink       .colStats .rowPrice::after { content: ''; } #ff49cgc30restoredLink       { display: none }
