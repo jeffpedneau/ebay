@@ -10,7 +10,7 @@
 /* .comingSoon .colDetail::after  { display: block; content: 'I will be filling in the gap between issues 77 and 103 over the next few weeks, and I have plenty, so check back often, and if you are looking for a specific issue, please send me a message.  I might have it and could list it for you.'; } */
 
 /* LINK DATA */
-#ff17pressedLink             .colStats .rowPrice::after { content: '395.00'; }
+#ff17pressedLink             .colStats .rowPrice::before { content: '395.00'; color: red; } #ff17pressedLink             .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff20pressedALink            .colStats .rowPrice::after { content: '295.00'; }
 #ff20pressedBLink            .colStats .rowPrice::after { content: '325.00'; }
 #ff31pressedLink             .colStats .rowPrice::before { content: '52.00'; color: red; } #ff31pressedLink             .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
