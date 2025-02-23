@@ -53,7 +53,7 @@
 #ff108pressedLink            .colStats .rowPrice::after { content: '23.95'; }
 #ff177pressedMarkJewelerLink .colStats .rowPrice::after { content: '17.00'; }
 #ff245pressedALink           .colStats .rowPrice::after { content: '17.25'; }
-#ff245pressedBLink           .colStats .rowPrice::after { content: '14.75'; }
+#ff245pressedBLink           .colStats .rowPrice::before { content: '14.75'; color: red; } #ff245pressedBLink           .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff245pressedCLink           .colStats .rowPrice::after { content: '17.95'; }
 #ffAnnual5pressedLink        .colStats .rowPrice::after { content: '65.00'; }
 #ff301to330lotOf30Link       .colStats .rowPrice::after { content: '117.00'; }
