@@ -4,10 +4,53 @@
 /* Out of Stock (no longer display) */
 /* #ff211 { display: none; } */
 
-/* .comingSoon { display: flex; background-color: yellow; } */
+#LATEST-ENTRIES .rowIssue {
+    font-weight: bold;
+}
+
+#LATEST-ENTRIES .rowGrade,
+#LATEST-ENTRIES .rowPrice {
+    display: none;
+}
+
+#LATEST-ENTRIES .colDetail {
+    background-color: aqua;
+}
+
+#LATEST-ENTRIES .colDetail::before {
+    white-space: pre;
+    font-weight: bold;
+    content: 'Check out these recently-added entries below! \a \a';
+}
+
+
+.comingSoon { display: flex; background-color: yellow; }
+
 /* .comingSoon .rowGrade::before { content: 'COMING SOON'; } */
-/* .comingSoon .colDetail::before { display: block; content: 'More issues coming your way soon -- check back often!'; } */
-/* .comingSoon .colDetail::after  { display: block; content: 'I will be filling in the gap between issues 77 and 103 over the next few weeks, and I have plenty, so check back often, and if you are looking for a specific issue, please send me a message.  I might have it and could list it for you.'; } */
+.comingSoon .rowGrade::before {
+    display: block;
+    white-space: pre;
+    font-weight: bold;
+    color: blue;
+    content: '\a \a NOTICE'
+}
+
+/* .comingSoon .colDetail::before { display: block; content: 'Many more issues available -- I am only allowed 250 entries at a time,'} */
+/* .comingSoon .colDetail::after  { display: block; content: 'so I am constantly shuffling in new ones as these sell.  Check regularly!'} */
+
+.comingSoon .colDetail::before {
+    display: block;
+    white-space: pre;
+    font-weight: bold;
+    color: blue;
+    content: '\a Many more issues available -- I am only allowed 250 entries at a time, \a so I am constantly shuffling in new ones as these sell.';
+}
+
+.comingSoon .colDetail::after  {
+    display: block;
+    white-space: pre;
+    content: 'I will be filling in many gaps after issue 261 over the next few weeks, and I have plenty, \a so if you are looking for a specific issue, please please feel free to contact me at: \a JPedneau@gmail.com \a \a';
+}
 
 /* LINK DATA */
 #ff20pressedALink            .colStats .rowPrice::after { content: '295.00'; }
@@ -44,7 +87,7 @@
 #ff245pressedCLink           .colStats .rowPrice::after { content: '17.95'; }
 #ffAnnual5pressedLink        .colStats .rowPrice::after { content: '65.00'; }
 #ff301to330lotOf30Link       .colStats .rowPrice::after { content: '117.00'; }
+#ff347to349firstLink         .colStats .rowPrice::after { content: ''; } #ff347to349firstLink         { display: none }
 #ff347to349firstLink         .colStats .rowPrice::after { content: '29.95'; } #ff347to349firstLink         { display: none }
-#ff347to349firstLink         .colStats .rowPrice::after { content: ''; }
 #ff367to416lotOf50Link       .colStats .rowPrice::after { content: '195.00'; }
 #ff49cgc30restoredLink       .colStats .rowPrice::after { content: ''; } #ff49cgc30restoredLink       { display: none }
