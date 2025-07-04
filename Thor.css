@@ -22,3 +22,4 @@
 
 /* LINK DATA */
 #thor209pressedLink .colStats .rowPrice::after { content: '6.75'; }
+#thor160pressedLink .colStats .rowPrice::before { content: '53.00'; color: red; } #thor160pressedLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
