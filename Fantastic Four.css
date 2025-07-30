@@ -59,7 +59,7 @@
 #ff52reprintBpressedLink .colStats .rowPrice::after { content: '8.95'; }
 #ff54pressedALink        .colStats .rowPrice::after { content: '46.00'; }
 #ff54pressedBLink        .colStats .rowPrice::after { content: '32.00'; }
-#ff55pressedALink        .colStats .rowPrice::after { content: '124.00'; }
+#ff55pressedALink        .colStats .rowPrice::before { content: '124.00'; color: red; } #ff55pressedALink        .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff55pressedBLink        .colStats .rowPrice::before { content: '95.00'; color: red; } #ff55pressedBLink        .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #ff59pressedBLink        .colStats .rowPrice::after { content: '47.75'; }
 #ff60pressedALink        .colStats .rowPrice::before { content: '38.00'; color: red; } #ff60pressedALink        .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
