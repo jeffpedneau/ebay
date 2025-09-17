@@ -12,5 +12,5 @@
  */
 
 /* LINK DATA */
-#ironmanSubmarinerLotOf4Link .colStats .rowPrice::after { content: '105.00'; }
 #ironMan43pressedLink        .colStats .rowPrice::after { content: '18.50'; }
+#ironmanSubmarinerLotOf4Link .colStats .rowPrice::after { content: '105.00'; }
