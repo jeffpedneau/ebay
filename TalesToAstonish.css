@@ -13,5 +13,4 @@
 /* .comingSoon .colDetail::after  { display: block; content: ' Working to fill in the gap after issue 56, so please be patient... '} */
 
 /* LINK DATA */
-#tta68pressedLink .colStats .rowPrice::before { content: '29.95'; color: red; } #tta68pressedLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #tta90pressedLink .colStats .rowPrice::before { content: '69.00'; color: red; } #tta90pressedLink .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
