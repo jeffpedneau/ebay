@@ -7,7 +7,7 @@
 /* .comingSoon .colDetail::after  { display: block; content: '(will be filling in the large gap in the 200s)'} */
 
 /* LINK DATA */
-#xmen169pressedNSLink     .colStats .rowPrice::after { content: '7.95'; }
+#xmen169pressedALink      .colStats .rowPrice::after { content: '8.25'; }
 #xmenCompanionLink        .colStats .rowPrice::after { content: '44.00'; } #xmenCompanionLink        { display: none }
 #xmenEarlyYearsLotOf5Link .colStats .rowPrice::after { content: '4.95'; }
 #xmenLotOf7Link           .colStats .rowPrice::after { content: '8.50'; }
