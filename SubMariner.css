@@ -20,7 +20,7 @@
 #sub2pressedBLink  .colStats .rowPrice::after { content: '45.00'; }
 #sub3pressedCLink  .colStats .rowPrice::after { content: '34.50'; }
 #sub3pressedDLink  .colStats .rowPrice::after { content: '36.50'; }
-#sub5pressedBLink  .colStats .rowPrice::after { content: '62.00'; }
+#sub5pressedBLink  .colStats .rowPrice::before { content: '62.00'; color: red; } #sub5pressedBLink  .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #sub7pressedALink  .colStats .rowPrice::before { content: '114.00'; color: red; } #sub7pressedALink  .colStats .rowPrice::after { content: ' SOLD'; color: red; font-weight: bold; font-size: 0.7rem; }
 #sub19pressedBLink .colStats .rowPrice::after { content: '54.00'; }
 #sub23pressedALink .colStats .rowPrice::after { content: '51.00'; }
